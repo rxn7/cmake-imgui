@@ -45,3 +45,13 @@ cmake_dependent_option(IMGUI_BACKEND_DX12
   "Set to ON to include DX12 backend files." OFF
   "IMGUI_WITH_BACKEND" ON
 )
+
+cmake_dependent_option(IMGUI_BACKEND_OPENGL2
+  "Set to ON to include OpenGL2 backend files." OFF
+  "IMGUI_WITH_BACKEND" ON
+)
+
+cmake_dependent_option(IMGUI_BACKEND_OPENGL3
+  "Set to ON to include OpenGL3 backend files." OFF
+  "IMGUI_WITH_BACKEND" ON
+)
